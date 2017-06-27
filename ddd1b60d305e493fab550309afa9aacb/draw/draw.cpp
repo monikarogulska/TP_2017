@@ -56,7 +56,6 @@ VOID Example_DrawRectangle(HDC hdc, int pozycja_windy1, int pozycja_windy2, int 
 			value = 0;
 			stop = 1;
 			if (nacisniecia>0) nacisniecia--;
-			//DrawPeople(hdc, nacisniecia);
 		}
 
 }
@@ -184,43 +183,31 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,
 			
 		case ID_z1na2:
 		{
-			//nacisniecia++;
-			//DrawPeople(hdc, nacisniecia);
 			dodawanie_do_kolejki( 500, 300, -1, 0);
 		} break;
 
 		case ID_z1na3:
 		{
-			//nacisniecia++;
-			//DrawPeople(hdc, nacisniecia);
 			dodawanie_do_kolejki(500, 100, -1, 0);
 		} break;
 
 		case ID_z2na1:
 		{
-			//nacisniecia++;
-			//DrawPeople(hdc, nacisniecia);
 			dodawanie_do_kolejki(300, 500, 1, 0);
 		} break;
 
 		case ID_z2na3:
 		{
-			//nacisniecia++;
-			//DrawPeople(hdc, nacisniecia);
 			dodawanie_do_kolejki(300, 100, -1, 0);
 		} break;
 
 		case ID_z3na1:
 		{
-			//nacisniecia++;
-			//DrawPeople(hdc, nacisniecia);
 			dodawanie_do_kolejki(100, 500, 1, 0);
 		} break;
 
 		case ID_z3na2:
 		{
-			//nacisniecia++;
-			//DrawPeople(hdc, nacisniecia);
 			dodawanie_do_kolejki(100, 300, 1, 0);
 		}break;
 
@@ -304,9 +291,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, PSTR, INT iCmdShow)
 
 	OnCreate(hWnd);
 
-
-
-   if (!hWnd)
+	 if (!hWnd)
    {
       return FALSE;
    }
