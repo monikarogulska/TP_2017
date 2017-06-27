@@ -1,0 +1,4 @@
+﻿  draw.cpp
+c:\users\monika\documents\visual studio 2017\projects\projekt 4\draw\draw.cpp(251): warning C4715: "WndProc”: niewszystkie ścieżki kodu zwracają wartość
+  draw.vcxproj -> C:\Users\Monika\Documents\Visual Studio 2017\Projects\Projekt 4\Debug\draw.exe
+  draw.vcxproj -> C:\Users\Monika\Documents\Visual Studio 2017\Projects\Projekt 4\Debug\draw.pdb (Partial PDB)
